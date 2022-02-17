@@ -1,0 +1,19 @@
+1. Install tinker (needed to run desktop application)
+2. Run bbox_tool (Anotate images)
+3. Go to your images folder.
+
+This creates a text file having the bounding box images
+
+
+4. copy all the text files from the img class folder to llabel class folder
+
+
+5. In convert.py mention all the classes(case sensitive)
+configure the path for each class
+
+make output lables folders for each class.
+The convert.py will save all the yolov4 accepted labels in those folder
+
+6. Copy all the images with labels to this folder
+
+Now dataset is ready.
